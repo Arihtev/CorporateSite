@@ -1,0 +1,129 @@
+body{
+    font-family: 'Raleway', sans-serif;
+}
+#myheader{
+    width: 980px;
+    margin:0 auto;
+}
+.selected {
+    background-color: rgb(109, 200, 212);
+    color:white;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 30px 30px;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+    margin-right: 10px;
+  }
+  
+  li a {
+    display: block;
+    text-align: center;
+    color:black;
+    padding: 0px 5px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+      background-color: lightgrey;
+      color:black;
+      text-decoration: underline;
+  }
+
+  
+
+  .mycontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+    height: 300px;
+    font-size:14px;
+  }
+  .mycontainer img{
+    object-fit: cover;
+    height: 100%;
+  }
+  .centered {
+    position: absolute;
+    color:black;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    width: 980px;
+  }
+  #background{
+      width: 100%;
+  }
+  button{
+    padding: 10px 30px;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 0.5;
+    border: solid 2px;
+    border-color: white;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  button:hover {
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: white;
+    background-color: transparent;
+    opacity: 1;
+    color: white;
+  }
+  #cards{
+      margin-top: 50px;
+  }
+  .container{
+      width:980px;
+  }
+  .container h1{
+    text-align: center;
+  }
+  .card{
+      padding: 20px 20px;
+      border:none;
+  }
+  .card:hover{
+      background-color: rgb(236, 235, 235);
+      cursor: pointer;
+  }
+  .card:hover a{
+      text-decoration-line: underline;
+  }
+  .card img{
+    width:50px;
+    margin: 25px;
+    margin-right: 10px;
+    float: left;
+  }
+  .cardtitle{
+      float: left;
+  }
+  footer{
+      padding:10px;
+      color: rgb(143, 143, 143);
+      background-color: rgb(26, 26, 26);
+      text-align: center;
+      border-top: solid 3px lightskyblue;
+  }
+  #logo{
+    transition: transform .2s;
+  }
+  #logo:hover{
+        transform: scale(1.1);
+  }
